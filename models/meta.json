@@ -1,0 +1,22 @@
+{
+  "features": [
+    "tx_count_10m",
+    "amount_sum_10m",
+    "tx_count_1h",
+    "amount_sum_1h",
+    "tx_count_24h",
+    "amount_sum_24h",
+    "is_night",
+    "log_amount",
+    "amount_ratio",
+    "hour_dev",
+    "secs_since_last",
+    "user_history",
+    "new_device",
+    "new_city",
+    "new_merchant",
+    "device_tx_count",
+    "device_age_secs"
+  ],
+  "threshold": 5.305888803962287e-05
+}

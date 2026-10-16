@@ -1,0 +1,22 @@
+Train: 211,055 txns (1936 fraud) | Test: 90,917 txns (1027 fraud)
+Features (15): ['tx_count_10m', 'amount_sum_10m', 'tx_count_1h', 'amount_sum_1h', 'tx_count_24h', 'amount_sum_24h', 'is_night', 'log_amount', 'amount_ratio', 'hour_dev', 'secs_since_last', 'user_history', 'new_device', 'new_city', 'new_merchant']
+
+Baseline   | PR-AUC 0.991 | ROC-AUC 1.000 | caught @1% false alarms: 100.0% | precision: 53.3%
+             account_takeover  caught: 100.0%
+             card_testing      caught: 100.0%
+             mule_scam         caught: 100.0%
+
+LightGBM   | PR-AUC 1.000 | ROC-AUC 1.000 | caught @1% false alarms: 100.0% | precision: 53.3%
+             account_takeover  caught: 100.0%
+             card_testing      caught: 100.0%
+             mule_scam         caught: 100.0%
+
+Top features:
+secs_since_last    1149
+amount_ratio       1107
+hour_dev            980
+amount_sum_24h      926
+log_amount          905
+amount_sum_1h       778
+user_history        750
+is_night            709
