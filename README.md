@@ -2,7 +2,7 @@
 
 **A real-time fraud detection system for UPI payments: synthetic data → feature engineering → LightGBM → online feature store → sub-millisecond scoring API → live dashboard.**
 
-🔗 **Live demo:** _coming soon_
+🔗 **Live demo:** https://upi-fraud-radar-abhipsa.streamlit.app
 
 ---
 
